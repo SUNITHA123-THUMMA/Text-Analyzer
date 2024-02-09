@@ -1,0 +1,167 @@
+
+.card {
+    margin-top: 20px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text p {
+    margin: 5px 0;
+  }
+  .input-type-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-type-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-type-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+ 
+  .input-type-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-type-button {
+    cursor: pointer;
+    padding: 10px 40px; 
+    margin-right: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .input-type-button.active {
+    background-color: transparent; 
+    color: #237bc4; 
+    box-shadow: 0px 5px 10px rgba(114, 107, 107, 0.2); 
+  }
+  
+  .description {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Responsive Table Styling */
+  @media screen and (max-width: 767px) {
+    .table-responsive {
+      overflow-y: hidden;
+      overflow-x: hidden;
+
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid #ddd;
+    }
+  
+    .table {
+      width: 50%;
+      max-width: 100%;
+    }
+  
+    .table th,
+    .table td {
+      white-space: nowrap;
+    }
+  }
+  
+
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+ 
+  @media screen and (max-width: 767px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table {
+      width: auto;
+    }
+  
+    .table th,
+    .table td {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  
